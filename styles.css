@@ -1,0 +1,235 @@
+@font-face {font-family: Inter-Black; src: url('Assets/Fonts/Inter-Black-slnt=0.ttf');} 
+@font-face {font-family: Inter-ExtraBold; src: url('Assets/Fonts/Inter-ExtraBold-slnt=0.tff');} 
+@font-face {font-family: Inter-Bold; src: url('Assets/Fonts/Inter-Bold-slnt=0.ttf');} 
+@font-face {font-family: Inter-SemiBold; src: url('Assets/Fonts/Inter-SemiBold-slnt=0.ttf');} 
+@font-face {font-family: Inter-Medium; src: url('Assets/Fonts/Inter-Medium-slnt=0.ttf');} 
+@font-face {font-family: Inter-Regular; src: url('Assets/Fonts/Inter-Regular-slnt=0.ttf');} 
+@font-face {font-family: Inter-Light; src: url('Assets/Fonts/Inter-Light-slnt=0.ttf');} 
+@font-face {font-family: Inter-ExtraLight; src: url('Assets/Fonts/Inter-ExtraLight-slnt=0.ttf');} 
+@font-face {font-family: Inter-Thin; src: url('Assets/Fonts/Inter-Thin-slnt=0.ttf');} 
+
+:root {
+	--delay: 1s;
+	--delay-landing-line: 2.3s;
+	--delay-landing-name: 2s;
+	--delay-landing-menu: 3s;
+}
+
+body, html {
+	height: 100%;
+}
+
+/* Page Containers */
+
+#splashscreen {
+	position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  width:100%;
+
+  background-image: url('Assets/Graphics/splash.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+	background-color: #202020;
+}
+
+#landing {
+	height: 100%;
+
+	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("Assets/Graphics/background.jpg");
+	background-color: #101010;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#about {
+	height: 100%;
+
+	display: none;
+	background-color: #101010;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work {
+	height: 100%;
+
+	display: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art {
+	height: 100%;
+
+	display: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#history {
+	height: 100%;
+
+	display: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#blog {
+	height: 100%;
+
+	display: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#more {
+	height: 100%;
+
+	display: none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Landing Page */
+
+#landing-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#landing-row {
+	height: 5.25vh;
+}
+
+
+.landing-name-container {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.landing-line-left {
+	flex-grow: 1;
+
+  height: 2px;
+  margin-right: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #FFFFFF;
+
+  animation-name: landing-line; 
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: var(--delay-landing-line);
+  animation-fill-mode: forwards;
+}
+
+.landing-name-text {
+	flex-grow: 0;
+
+	color: #F0F0F0;
+	font-size: 3.5vw;
+	font-family: Inter-Bold;
+
+	opacity: 0;
+  animation-name: landing-name;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: var(--delay-landing-name);
+  animation-fill-mode: forwards;
+}
+
+.landing-line-right {
+	flex-grow: 1;
+
+  height: 2px;
+  margin-left: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #FFFFFF;
+
+  animation-name: landing-line; 
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: var(--delay-landing-line);
+  animation-fill-mode: forwards;
+}
+
+
+.landing-menu {
+	display: flex;
+	flex-direction: row;
+
+	opacity: 0;
+	animation-name: landing-menu-delay;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: var(--delay-landing-menu);
+	animation-fill-mode: forwards;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.landing-menu-item {
+	width: 100%;
+	padding-top: 1.4vh;
+
+	color: #F0F0F0;
+	font-size: 0.9vw;
+	font-family: Inter-SemiBold;
+}
+
+.landing-menu-item:hover {
+	border-bottom: 2px #FFFFFF solid;
+}
+
+.landing-menu-divider {
+	padding-left: 0.75vw;
+	padding-right: 0.75vw;
+	padding-top: 1.4vh;
+
+	color: #F0F0F0;
+	font-size: 0.9vw;
+	font-family: Inter-SemiBold;
+}
+
+/* Animations */
+
+@keyframes landing-line {
+	from {
+		width: 0;
+	}
+	to {
+		width: 4vw;
+	}
+}
+
+@keyframes landing-name {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes landing-menu-delay {
+	from {
+		opacity: 0;
+		transform: translateY(40%);
+	}
+	to {
+		opacity: 1;
+	}
+}
