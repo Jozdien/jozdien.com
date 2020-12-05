@@ -10,9 +10,6 @@
 
 :root {
 	--delay: 1s;
-	--delay-landing-line: 2.3s;
-	--delay-landing-name: 2s;
-	--delay-landing-menu: 3s;
 }
 
 body, html {
@@ -130,7 +127,7 @@ body, html {
   animation-name: landing-line; 
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: var(--delay-landing-line);
+  animation-delay: calc(var(--delay) * 2 + 0.3s);
   animation-fill-mode: forwards;
 }
 
@@ -138,14 +135,14 @@ body, html {
 	flex-grow: 0;
 
 	color: #F0F0F0;
-	font-size: 3.5vw;
+	font-size: calc(24px + 2.15vw);
 	font-family: Inter-Bold;
 
 	opacity: 0;
   animation-name: landing-name;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: var(--delay-landing-name);
+  animation-delay: calc(var(--delay) * 2);
   animation-fill-mode: forwards;
 }
 
@@ -160,7 +157,7 @@ body, html {
   animation-name: landing-line; 
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: var(--delay-landing-line);
+  animation-delay: calc(var(--delay) * 2 + 0.3s);
   animation-fill-mode: forwards;
 }
 
@@ -173,7 +170,7 @@ body, html {
 	animation-name: landing-menu-delay;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
-	animation-delay: var(--delay-landing-menu);
+	animation-delay: calc(var(--delay) * 2 + 1s);
 	animation-fill-mode: forwards;
 }
 
@@ -186,7 +183,7 @@ a:link {
 	padding-top: 1.4vh;
 
 	color: #F0F0F0;
-	font-size: 0.9vw;
+	font-size: 16px;
 	font-family: Inter-SemiBold;
 }
 
@@ -200,7 +197,7 @@ a:link {
 	padding-top: 1.4vh;
 
 	color: #F0F0F0;
-	font-size: 0.9vw;
+	font-size: 16px;
 	font-family: Inter-SemiBold;
 }
 
