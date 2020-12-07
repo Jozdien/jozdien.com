@@ -288,6 +288,13 @@ a:link {
 
 	margin-top: 3.5vh;
 	margin-left: -3vw;
+
+	opacity: 0;
+	animation-name: about; 
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: calc(var(--delay) * 2);
+  animation-fill-mode: forwards;
 }
 
 .about-image {
@@ -306,6 +313,13 @@ a:link {
 	color: #F0F0F0;
 	font-size: 36px;
 	font-family: 'Inter-SemiBold';
+
+	opacity: 0;
+	animation-name: about; 
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: calc(var(--delay) * 2 + 0.5s);
+  animation-fill-mode: forwards;
 }
 
 .about-description {
@@ -316,6 +330,13 @@ a:link {
 	font-family: 'Inter-Regular';
 	text-align: justify;
 	text-justify: auto;
+
+	opacity: 0;
+	animation-name: about; 
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: calc(var(--delay) * 2 + 1s);
+  animation-fill-mode: forwards;
 }
 
 .about-buttons {
@@ -323,6 +344,13 @@ a:link {
 	flex-direction: row;
 
 	margin-top: 3vh;
+
+	opacity: 0;
+	animation-name: about; 
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: calc(var(--delay) * 2 + 1.5s);
+  animation-fill-mode: forwards;
 }
 
 .about-button-container {
@@ -491,6 +519,16 @@ a:link {
 	from {
 		opacity: 0;
 		transform: translateY(40%);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes about {
+	from {
+		opacity: 0;
+		transform: translateY(10%);
 	}
 	to {
 		opacity: 1;
