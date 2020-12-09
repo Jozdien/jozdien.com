@@ -52,3 +52,63 @@ $(function () {
     name.style.visibility = "visible";
   });
 })
+
+
+let options = {
+  root: null,
+  rootMargin: '0px',
+  threshold: 0.3
+};
+
+function aboutAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'about 0.5s ease-in-out 0.3s forwards';
+    }
+  });
+}
+
+function titleLineAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'title-line 1s ease-in-out 1s forwards';
+    }
+  });
+}
+
+function titleHeadAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'title-head 1s ease-in-out 0.3s forwards';
+    }
+  });
+}
+
+function titleUnderlineAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'title-underline 1s ease-in-out 0.3s forwards';
+    }
+  });
+}
+
+let observerAbout = new IntersectionObserver(aboutAnim, options);
+let observerTitleLine = new IntersectionObserver(titleLineAnim, options);
+let observerTitleHead = new IntersectionObserver(titleHeadAnim, options);
+let observerTitleUnderline = new IntersectionObserver(titleUnderlineAnim, options);
+
+const abouts = document.querySelectorAll('.about-anim');
+abouts.forEach(about => observerAbout.observe(about));
+
+const titleLines = document.querySelectorAll('.title-line-anim');
+titleLines.forEach(line => observerTitleLine.observe(line));
+
+const titleHeads = document.querySelectorAll('.title-head-anim');
+titleHeads.forEach(head => observerTitleHead.observe(head));
+
+const titleUnderlines = document.querySelectorAll('.title-underline-anim');
+titleUnderlines.forEach(line => observerTitleUnderline.observe(line));

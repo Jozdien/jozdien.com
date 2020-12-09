@@ -107,6 +107,14 @@ body.offcanvas-active{
 }
 
 #work {
+	display: none;
+	background-color: #202020;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#history {
 	height: 100%;
 
 	display: none;
@@ -116,15 +124,6 @@ body.offcanvas-active{
 }
 
 #art {
-	height: 100%;
-
-	display: none;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#history {
 	height: 100%;
 
 	display: none;
@@ -290,11 +289,6 @@ a:link {
 	margin-left: -3vw;
 
 	opacity: 0;
-	animation-name: about; 
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: calc(var(--delay) * 2);
-  animation-fill-mode: forwards;
 }
 
 .about-image {
@@ -315,11 +309,6 @@ a:link {
 	font-family: 'Inter-SemiBold';
 
 	opacity: 0;
-	animation-name: about; 
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: calc(var(--delay) * 2 + 0.5s);
-  animation-fill-mode: forwards;
 }
 
 .about-description {
@@ -332,11 +321,6 @@ a:link {
 	text-justify: auto;
 
 	opacity: 0;
-	animation-name: about; 
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: calc(var(--delay) * 2 + 1s);
-  animation-fill-mode: forwards;
 }
 
 .about-buttons {
@@ -346,17 +330,151 @@ a:link {
 	margin-top: 3vh;
 
 	opacity: 0;
-	animation-name: about; 
-  animation-duration: 0.5s;
-  animation-timing-function: ease-in-out;
-  animation-delay: calc(var(--delay) * 2 + 1.5s);
-  animation-fill-mode: forwards;
 }
 
 .about-button-container {
 	width: 22px;
 	height: 22px;
 	margin-right: 20px;
+}
+
+/* Titles on the Remaining Pages */
+
+.title-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
+	margin: auto;
+}
+
+.title-line-left {
+	flex-grow: 1;
+
+  height: 2px;
+  margin-right: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #F0F0F0;
+}
+
+.title-head-text {
+	flex-grow: 0;
+
+	font-size: calc(20px + 2.15vw);
+	font-family: Inter-Bold;
+	color: #F0F0F0;
+
+	opacity: 0;
+}
+
+.title-head-underline {
+	display: none;
+
+	height: 2px;
+	background-color: #F0F0F0;
+}
+
+.title-line-right {
+	flex-grow: 1;
+
+  height: 2px;
+  margin-left: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #F0F0F0;
+}
+
+/* Work */
+
+#work-row-head {
+	height: 20vh;
+}
+
+.work-row-items {
+	display: flex;
+	flex-direction: row;
+}
+
+.work-item-content-outer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.work-item-content {
+	padding-left: 18vw;
+}
+
+.work-item-title {
+	font-size: 24px;
+	font-family: Inter-SemiBold;
+	color: #D5D5D5;
+}
+
+.work-item-description {
+	position: relative;
+	z-index: 1;
+
+	width: 600px;
+	font-size: 15px;
+	font-family: Inter-Regular;
+	color: #C0C0C0;
+	padding: 25px;
+
+	background-color: #282C33;
+}
+
+.work-item-tags {
+
+}
+
+.work-item-tag-container {
+
+}
+
+.work-item-links {
+	display: flex;
+	flex-direction: row;
+}
+
+.work-item-link-container {
+	width: 22px;
+	height: 22px;
+	margin-right: 20px;
+}
+
+.work-item-image-container {
+	position: relative;
+	z-index: 0;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.work-item-image {
+	width: 576px;
+	height: 324px;
+	margin-left: -75px;
+
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("Assets/Graphics/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.work-item-image:hover {	
+	background: url("Assets/Graphics/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.work-item-all {
+	display: none;
 }
 
 /* Views */
@@ -435,12 +553,24 @@ a:link {
 	.about-buttons {
 		margin-bottom: 5vh;
 	}
+	.title-line-left {
+		display: none;
+	}
+	.landing-name-text {
+		font-size: 10vw;
+	}
+	.title-head-underline {
+		display: block;
+	}
+	.title-line-right {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 992px) {
 	.about-image-container {
-		margin-top: -5vh;
-		margin-bottom: 5vh;
+		margin-top: 1vh;
+		margin-bottom: 2vh;
 		margin-left: 35%;
 		width: 200px;
 	}
@@ -456,6 +586,7 @@ a:link {
 	}
 	.about-description {
 		width: 100% !important;
+		margin-top: 2%;
 	}
 }
 
@@ -532,5 +663,34 @@ a:link {
 	}
 	to {
 		opacity: 1;
+	}
+}
+
+@keyframes title-line {
+	from {
+		width: 0;
+	}
+	to {
+		width: 4vw;
+	}
+}
+
+@keyframes title-head {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes title-underline {
+	from {
+		margin-left: 50%;
+		width: 0;
+	}
+	to {
+		margin-left: 25%;
+		width: 50%;
 	}
 }

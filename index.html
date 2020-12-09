@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js" type="text/javascript"></script>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body onload="splash(1000)">
@@ -119,17 +119,17 @@
 		<div class="container-fluid" id="about-container">
 			<div class="row" id="about-row">
 				<div class="col-md-12 col-lg-6">
-					<div class="about-image-container">
+					<div class="about-image-container about-anim">
 						<img class="about-image" src="Assets/Graphics/avatar.png">
 					</div>
 				</div>
 				<div class="col-lg-6" id="about-text-container">
-					<div class="about-head">
+					<div class="about-head about-anim">
 						What's an Arun Jose?
 					</div>
-					<div class="about-description" id="about-description">
+					<div class="about-description about-anim" id="about-description">
 					</div>
-					<div class="about-buttons">
+					<div class="about-buttons about-anim">
 						<div class="about-button-container">
 							<a href="https://www.instagram.com/jozdien/">
 								<img class="about-insta" src="Assets/Graphics/insta.svg">
@@ -161,10 +161,64 @@
 		</div>
 	</div>
 	<div id="work">
-	</div>
-	<div id="art">
+		<div class="container-fluid" id="work-container">
+			<div class="row" id="work-row-head">
+				<div class="title-container">
+					<div class="title-line-left title-line-anim"></div>
+					<div class="title-head-text title-head-anim">
+						Work
+						<div class="title-head-underline title-underline-anim"></div>
+					</div>
+					<div class="title-line-right title-line-anim"></div>
+				</div>
+			</div>
+			<div class="row" id="work-row-items">
+				<div class="work-item-content-outer">
+					<div class="work-item-content">
+						<div class="work-item-title">
+							The Calibration Game
+						</div>
+						<div class="work-item-description">
+							An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of "sureness" with success rates.
+							<br>
+							<a href="https://acritch.com/credence-game/">A better description can be found here.</a>
+						</div>
+						<div class="work-item-tags">
+							<div class="work-item-tag-container">
+								React Native
+							</div>
+							<div class="work-item-tag-container">
+								Firebase
+							</div>
+							<div class="work-item-tag-container">
+								Heuristics
+							</div>
+						</div>
+						<div class="work-item-links">
+							<div class="work-item-link-container">
+								<a href="https://github.com/Jozdien/The_Calibration_Game">
+									<img class="work-github" src="Assets/Graphics/github.svg">
+								</a>
+							</div>
+							<div class="work-item-link-container">
+								<a href="https://play.google.com/store/apps/details?id=com.the_calibration_game&hl=en_US&gl=US">
+									<img class="work-external" src="Assets/Graphics/external.svg">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="work-item-image-container">
+					<div class="work-item-image"></div>
+				</div>
+				<div class="work-item-all">
+				</div>
+			</div>
+		</div>
 	</div>
 	<div id="history">
+	</div>
+	<div id="art">
 	</div>
 	<div id="blog">
 	</div>
