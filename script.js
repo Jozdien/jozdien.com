@@ -96,10 +96,20 @@ function titleUnderlineAnim(entries, observer)
   });
 }
 
+function workAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'work 0.5s ease-in-out 1s forwards';
+    }
+  });
+}
+
 let observerAbout = new IntersectionObserver(aboutAnim, options);
 let observerTitleLine = new IntersectionObserver(titleLineAnim, options);
 let observerTitleHead = new IntersectionObserver(titleHeadAnim, options);
 let observerTitleUnderline = new IntersectionObserver(titleUnderlineAnim, options);
+let observerWork = new IntersectionObserver(workAnim, options);
 
 const abouts = document.querySelectorAll('.about-anim');
 abouts.forEach(about => observerAbout.observe(about));
@@ -112,3 +122,6 @@ titleHeads.forEach(head => observerTitleHead.observe(head));
 
 const titleUnderlines = document.querySelectorAll('.title-underline-anim');
 titleUnderlines.forEach(line => observerTitleUnderline.observe(line));
+
+const works = document.querySelectorAll('.work-anim');
+works.forEach(work => observerWork.observe(work));
