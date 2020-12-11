@@ -38,3 +38,16 @@ firebaseWork.once('value').then((snapshot) => {
 		})
 	})
 });
+
+/*
+var firebaseHistory = database.ref('History');
+firebaseHistory.once('value').then((snapshot) => {
+	snapshot.forEach(function(section) {
+		section.forEach(function(item) {
+			item.forEach(function(property) {
+				var name = property.key;
+			})
+		})
+	})
+});
+*/

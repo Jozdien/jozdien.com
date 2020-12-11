@@ -118,18 +118,16 @@ body.offcanvas-active{
 }
 
 #history {
-	height: 100%;
-
 	display: none;
+	background-color: #FFFFFF;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #art {
-	height: 100%;
-
 	display: none;
+	background-color: #202020;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -139,6 +137,7 @@ body.offcanvas-active{
 	height: 100%;
 
 	display: none;
+	background-color: #F0F0F0;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -343,6 +342,10 @@ a:link {
 
 /* Titles on the Remaining Pages */
 
+#title-row-head {
+	height: 20vh;
+}
+
 .title-container {
 	display: flex;
 	flex-direction: row;
@@ -350,6 +353,7 @@ a:link {
 	align-items: center;
 
 	margin: auto;
+	padding-bottom: 30px;
 }
 
 .title-line-left {
@@ -387,16 +391,49 @@ a:link {
   background-color: #F0F0F0;
 }
 
-/* Work */
+.title-line-left-black {
+	flex-grow: 1;
 
-#work-row-head {
-	height: 20vh;
+  height: 2px;
+  margin-right: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #101010;
 }
+
+.title-head-text-black {
+	flex-grow: 0;
+
+	font-size: calc(20px + 2.15vw);
+	font-family: Inter-Bold;
+	color: #101010;
+
+	opacity: 0;
+}
+
+.title-head-underline-black {
+	display: none;
+
+	height: 2px;
+	background-color: #101010;
+}
+
+.title-line-right-black {
+	flex-grow: 1;
+
+  height: 2px;
+  margin-left: 0.75vw;
+  margin-top: 0.5vw;
+  background-color: #101010;
+}
+
+/* Work */
 
 #work-row-items {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+
+	padding-bottom: 50px;
 }
 
 .work-row-item-container {
@@ -412,12 +449,7 @@ a:link {
 	justify-content: flex-end;
 	align-items: center;
 
-	margin-top: 5vh;
-	margin-bottom: 5vh;
-}
-
-.work-item-content {
-	
+	margin-bottom: 40px;
 }
 
 .work-item-title {
@@ -425,7 +457,6 @@ a:link {
 	font-size: 24px;
 	font-family: Inter-SemiBold;
 	color: #E0E0E0;
-	margin-top: 0px;
 }
 
 .work-item-description {
@@ -496,7 +527,7 @@ a:link {
 	align-items: center;
 
 	margin-top: 5vh;
-	margin-bottom: 10vh;
+	margin-bottom: 7.5vh;
 }
 
 .work-item-image {
@@ -521,6 +552,167 @@ a:link {
 .work-item-background {
 	width: 85vw;
 	margin-bottom: 10vw;
+}
+
+/*  History */
+
+#history-positions {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.history-subtitle {
+	margin-top: 30px;
+	margin-left: calc(48vw - 460px);
+	margin-bottom: 30px;
+
+	font-size: 30px;
+	font-family: Inter-SemiBold;
+	color: #101010;
+
+	opacity: 0;
+}
+
+.history-position-items {
+
+}
+
+.history-position-item-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-bottom: 40px;
+
+	opacity: 0;
+}
+
+.history-item-image-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.history-item-image {
+	width: 320px;
+	height: 240px;
+
+	border-radius: 30px;
+}
+
+.history-item-content {
+	width: 550px;
+	margin-left: 50px;
+}
+
+.history-item-title {
+	font-size: 26px;
+	font-family: Inter-Medium;
+	color: #101010;
+}
+
+.history-item-subtitle {
+	margin-top: 5px;
+
+	font-size: 16px;
+	font-family: Inter-SemiBold;
+	color: #E56967;
+}
+
+.history-item-description {
+	margin-top: 20px;
+
+	font-size: 14px;
+	font-family: Inter-Regular;
+	color: #808080;
+}
+
+.history-item-description ul {
+	margin-left: -20px;
+}
+
+.history-item-description a {
+	font-family: Inter-Medium;
+	color: #757575;
+}
+
+.history-item-description a:hover {
+	font-family: Inter-Medium;
+	color: #858585;
+}
+
+#history-awards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.history-award-items {
+
+}
+
+.history-award-item-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-bottom: 40px;
+
+	opacity: 0;
+}
+
+.history-award-item-head {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 320px;
+}
+
+.history-award-item-title {
+	font-size: 20px;
+	font-family: Inter-Medium;
+	color: #101010;
+	text-align: center;
+}
+
+.history-award-item-subtitle {
+	padding-top: 3px;
+
+	font-size: 14px;
+	font-family: Inter-SemiBold;
+	color: #E56967;
+	text-align: center;
+}
+
+.history-award-item-description {
+	width: 550px;
+	margin-left: 50px;
+
+	font-size: 14px;
+	font-family: Inter-Regular;
+	color: #808080;
+}
+
+#history-education {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.history-education-items {
+	padding-bottom: 50px;
+}
+
+.history-education-item-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	margin-bottom: 40px;
+
+	opacity: 0;
 }
 
 /* Views */
@@ -635,6 +827,18 @@ a:link {
 	.title-line-right {
 		display: none;
 	}
+	.title-line-left-black {
+		display: none;
+	}
+	.landing-name-text-black {
+		font-size: 10vw;
+	}
+	.title-head-underline-black {
+		display: block;
+	}
+	.title-line-right-black {
+		display: none;
+	}
 	.work-item-content-outer {
 		display: none;
 	}
@@ -671,6 +875,42 @@ a:link {
 	.work-item-links {
 		padding: 40px;
 	}
+	.history-subtitle {
+		margin-left: 30px !important;
+	}
+	.history-position-item-container {
+		flex-direction: column;
+	}
+	.history-item-image-container {
+		justify-content: center; !important;
+	}
+	.history-item-image {
+		width: 320px !important;
+		height: 240px !important;
+	}
+	.history-item-content {
+		width: 320px !important;
+	}
+	.history-item-title {
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	.history-item-subtitle {
+		font-size: 14px;
+	}
+	.history-award-item-container {
+		flex-direction: column;
+	}
+	.history-award-item-head {
+		width: 100vw !important;
+	}
+	.history-award-item-description {
+		width: 320px !important;
+		margin-top: 20px;
+	}
+	.history-education-item-container {
+		flex-direction: column;
+	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -693,6 +933,15 @@ a:link {
 	.about-description {
 		width: 100% !important;
 		margin-top: 2%;
+	}
+	.history-subtitle {
+		margin-left: 20px;
+	}
+	.history-item-content {
+		width: 55.44vw;
+	}
+	.history-award-item-description {
+		width: 55.44vw;
 	}
 }
 
@@ -719,6 +968,13 @@ a:link {
 	.work-item-image {
 		width: 48vw;
 		height: 27vw;
+	}
+	.history-item-image {
+		width: 26.67vw;
+		height: 20vw;
+	}
+	.history-award-item-head {
+		width: 26.67vw;
 	}
 }
 
@@ -809,6 +1065,16 @@ a:link {
 }
 
 @keyframes work {
+	from {
+		opacity: 0;
+		transform: translateY(10%);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes history {
 	from {
 		opacity: 0;
 		transform: translateY(10%);
