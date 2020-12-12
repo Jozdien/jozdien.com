@@ -24,8 +24,10 @@ body, html {
 	height: 100%;
 }
 
+/* Mobile Menu */
 
 #mobile-menu {
+	display: none;
 	position: fixed;
 	z-index: 10;
 }
@@ -620,6 +622,10 @@ a:link {
 	color: #E56967;
 }
 
+.history-item-subtitle a {
+	color: #E56967;
+}
+
 .history-item-description {
 	margin-top: 20px;
 
@@ -715,9 +721,39 @@ a:link {
 	opacity: 0;
 }
 
+/* Art */
+
+#art-items {
+	display: flex;
+	flex-direction: row;
+
+	padding-bottom: 75px;
+}
+
+.art-item-container {
+	padding: 0;
+	opacity: 0;
+}
+
+.art-item-image {
+	position: relative;
+	z-index: 0;
+
+	height: 16.67vw;
+
+	transition-duration: 0.5s;
+}
+
+.art-item-image:hover {
+	z-index: 1;
+
+	box-shadow: 6px 6px 20px #101010;
+	transform: scale(1.02);
+}
+
 /* Views */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
 	.about-image-container {
 		margin-left: 25% !important;
 	}
@@ -744,6 +780,9 @@ a:link {
 	}
 	.work-item-links {
 		padding: 25px !important;
+	}
+	.art-item-container > .art-item-image {
+		height: 50vw !important;
 	}
 }
 
@@ -876,7 +915,7 @@ a:link {
 		padding: 40px;
 	}
 	.history-subtitle {
-		margin-left: 30px !important;
+		text-align: center;
 	}
 	.history-position-item-container {
 		flex-direction: column;
@@ -890,6 +929,8 @@ a:link {
 	}
 	.history-item-content {
 		width: 320px !important;
+		align-self: center;
+		margin-left: 0px !important;
 	}
 	.history-item-title {
 		font-size: 20px;
@@ -907,9 +948,14 @@ a:link {
 	.history-award-item-description {
 		width: 320px !important;
 		margin-top: 20px;
+		align-self: center;
+		margin-left: 0px !important;
 	}
 	.history-education-item-container {
 		flex-direction: column;
+	}
+	.art-item-image {
+		height: 33.33vw !important;
 	}
 }
 
@@ -943,6 +989,9 @@ a:link {
 	.history-award-item-description {
 		width: 55.44vw;
 	}
+	.art-item-image {
+		height: 25vw;
+	}
 }
 
 @media only screen and (max-width: 1200px) {
@@ -975,12 +1024,6 @@ a:link {
 	}
 	.history-award-item-head {
 		width: 26.67vw;
-	}
-}
-
-@media only screen and (min-width: 768px) {
-	#mobile-menu {
-		display: none;
 	}
 }
 
@@ -1075,6 +1118,16 @@ a:link {
 }
 
 @keyframes history {
+	from {
+		opacity: 0;
+		transform: translateY(10%);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes art {
 	from {
 		opacity: 0;
 		transform: translateY(10%);

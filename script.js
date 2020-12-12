@@ -114,12 +114,22 @@ function historyAnim(entries, observer)
   });
 }
 
+function artAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'art 0.5s ease-in-out forwards';
+    }
+  });
+}
+
 let observerAbout = new IntersectionObserver(aboutAnim, options);
 let observerTitleLine = new IntersectionObserver(titleLineAnim, options);
 let observerTitleHead = new IntersectionObserver(titleHeadAnim, options);
 let observerTitleUnderline = new IntersectionObserver(titleUnderlineAnim, options);
 let observerWork = new IntersectionObserver(workAnim, options);
 let observerHistory = new IntersectionObserver(historyAnim, options);
+let observerArt = new IntersectionObserver(artAnim, options);
 
 const abouts = document.querySelectorAll('.about-anim');
 abouts.forEach(about => observerAbout.observe(about));
@@ -138,3 +148,6 @@ works.forEach(work => observerWork.observe(work));
 
 const histories = document.querySelectorAll('.history-anim');
 histories.forEach(history => observerHistory.observe(history));
+
+const arts = document.querySelectorAll('.art-anim');
+arts.forEach(art => observerArt.observe(art));

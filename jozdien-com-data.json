@@ -1,4 +1,87 @@
 {
+  "Art" : {
+    "art-1" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-2" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-3" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-4" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-5" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-6" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-7" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-8" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-9" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-10" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-11" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+    "art-12" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>"
+  },
+  "History" : {
+    "positions" : {
+      "ieee" : {
+        "position-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-1-title" : "Co-ordinator/Co-Founder",
+        "position-1-subtitle" : "<a href=\"http://ieee.cet.ac.in/index.php/execom-2020/\">IEEE SB CET Special Interest Group for AI</a> &#183; Since February 2020",
+        "position-1-description" : "<ul><li>Set up an industry collaboration with <a href=\"https://neuroplex.in/\"> Neuroplex </a> to provide experienced training and internship opportunities.</li><li>Hosted <a href=\"https://github.com/Jozdien/AI-For-Dummies\">workshop series</a> on Machine Learning, Deep Learning, and Friendly AI - 23 participants went on to complete projects in predictive analysis.</li><li>Hosted webinar series on Data Science and Deep Learning.</li><li>Organized AI Safety competiton, which closed with an <a href=\"https://www.youtube.com/watch?v=4nN8wUVZ9u0\">analysis</a> of the common fallacies faced  (Check that link out, I swear it's cooler than it sounds).</li><li>Collaborated with the <a href=\"https://intelligence.org/\">Machine Intelligence Research Institute</a> for instructional material and technical assistance.</li><li>Founded 2 Special Interest Groups for AI in IEEE Student Branches across the state.</li></ul>"
+      },
+      "airli" : {
+        "position-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-2-title" : "Intern - ML Team",
+        "position-2-subtitle" : "<a href=\"https://www.orbitaustralia.com/\">Airli, OrbitAustralia</a> &#183; Since September 2020",
+        "position-2-description" : "Developing a machine learning model to process satellite imagery to generate actionable insights relating to pollen forecasts, for clients working to improve quality-of-life apropos of asthma and air quality."
+      },
+      "freelance" : {
+        "position-3-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-3-title" : "Freelancer",
+        "position-3-subtitle" : "Android & Web Development &#183; Since August 2019",
+        "position-3-description" : "I do front-end design and development."
+      },
+      "mulearn" : {
+        "position-4-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-4-title" : "Logistics Manager",
+        "position-4-subtitle" : "<a href=\"https://www.facebook.com/mulearn.org/\">MuLearn</a> &#183; February 2019 - August 2019",
+        "position-4-description" : "<ul><li>Oversaw heuristics of instructional methods and handling of source material.</li><li>Managing and formatting the MuLearn website.</li>"
+      }
+    },
+    "awards" : {
+      "evoke" : {
+        "award-1-title" : "EVOKE'19 Hackathon",
+        "award-1-subtitle" : "1st Place &#183; February 2019",
+        "award-1-description" : "National level tech summit by IEDC TKMCE and IEEE SB TKMCE.<br>Developed an emergency management platform (Refer Karma in the preceding section)."
+      },
+      "reboot" : {
+        "award-2-title" : "Reboot Kerala Hackathon",
+        "award-2-subtitle" : "3rd Place &#183; March 2020",
+        "award-2-description" : "Healthcare Category, State level Hackathon series by the State Department for Higher Education.<br>Developed a mental health triage and support framework (Refer Mentem in the preceding section)."
+      },
+      "pass-the-code" : {
+        "award-3-title" : "Pass the Code",
+        "award-3-subtitle" : "1st Place &#183; March 2019",
+        "award-3-description" : "State-level tag-team coding competition conducted by the SBs of IEEE, IEDC, and ISTE of Barton Hill College of Engineering."
+      },
+      "xtreme" : {
+        "award-4-title" : "IEEE Xtreme'19",
+        "award-4-subtitle" : "Global Rank 712 &#183; February 2019",
+        "award-4-description" : "Global team 24-hour online coding competition."
+      },
+      "oratrium" : {
+        "award-5-title" : "Oratrium",
+        "award-5-subtitle" : "1st Place &#183; October 2015",
+        "award-5-description" : "State level public speaking competition by JCI, judged and awarded by Dr. Shashi Tharoor."
+      }
+    },
+    "education" : {
+      "cet" : {
+        "education-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "education-1-title" : "College of Engineering Trivandrum",
+        "education-1-subtitle" : "B.Tech CSE &#183; Class of 2022",
+        "education-1-description" : "When I'm not cutting classes to do something else, I'm a third year Computer Science undergraduate."
+      },
+      "loyola" : {
+        "education-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "education-2-title" : "Loyola School, Thiruvananthapuram",
+        "education-2-subtitle" : "ISC &#183; Batch of 2018",
+        "education-2-description" : "There's much more to say than could fit in this space to do justice."
+      }
+    }
+  },
   "Work" : {
     "metise" : {
       "work-1-background" : "Assets/Graphics/background.jpg",
