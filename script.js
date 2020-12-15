@@ -123,6 +123,15 @@ function artAnim(entries, observer)
   });
 }
 
+function blogAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+    	entry.target.style.animation = 'blog 0.5s ease-in-out forwards';
+    }
+  });
+}
+
 let observerAbout = new IntersectionObserver(aboutAnim, options);
 let observerTitleLine = new IntersectionObserver(titleLineAnim, options);
 let observerTitleHead = new IntersectionObserver(titleHeadAnim, options);
@@ -130,6 +139,7 @@ let observerTitleUnderline = new IntersectionObserver(titleUnderlineAnim, option
 let observerWork = new IntersectionObserver(workAnim, options);
 let observerHistory = new IntersectionObserver(historyAnim, options);
 let observerArt = new IntersectionObserver(artAnim, options);
+let observerBlog = new IntersectionObserver(blogAnim, options);
 
 const abouts = document.querySelectorAll('.about-anim');
 abouts.forEach(about => observerAbout.observe(about));
@@ -151,3 +161,6 @@ histories.forEach(history => observerHistory.observe(history));
 
 const arts = document.querySelectorAll('.art-anim');
 arts.forEach(art => observerArt.observe(art));
+
+const blogs = document.querySelectorAll('.blog-anim');
+blogs.forEach(blog => observerBlog.observe(blog));
