@@ -1,0 +1,42 @@
+.home {
+
+}
+
+.link {
+
+}
+
+.head {
+
+}
+
+.title {
+
+}
+
+.details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.type {
+
+}
+
+.date {
+
+}
+
+.count {
+
+}
+
+.line {
+	height: 0.3px;
+	background-color: #B0B0B0;
+}
+
+.content {
+
+}
