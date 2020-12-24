@@ -886,6 +886,25 @@ a:link {
 	padding-bottom: 4%;
 }
 
+#more-intro {
+	display: flex;
+	flex-direction: column;
+
+	width: 20%;
+}
+
+.more-intro-text-1 {
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.more-intro-text-2 {
+	width: 0;
+
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 /* Views */
 
 @media only screen and (max-width: 576px) {
@@ -1342,4 +1361,23 @@ a:link {
 	to {
 		opacity: 1;
 	}
+}
+
+@keyframes more {
+	from {
+		opacity: 0;
+		transform: translateY(10%);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes typing {
+	from { 
+		width: 0;
+	}
+  to { 
+  	width: 100%;
+  }
 }

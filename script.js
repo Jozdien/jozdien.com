@@ -132,6 +132,33 @@ function blogAnim(entries, observer)
   });
 }
 
+function moreAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+      entry.target.style.animation = 'more 0.5s ease-in-out forwards';
+    }
+  });
+}
+
+function moreTextFirstAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+      entry.target.style.animation = 'typing 3s ease-in-out forwards';
+    }
+  });
+}
+
+function moreTextSecondAnim(entries, observer)
+{
+  entries.forEach(entry => {
+    if(entry.intersectionRatio > 0) {
+      entry.target.style.animation = 'typing 3s 3s ease-in-out forwards';
+    }
+  });
+}
+
 let observerAbout = new IntersectionObserver(aboutAnim, options);
 let observerTitleLine = new IntersectionObserver(titleLineAnim, options);
 let observerTitleHead = new IntersectionObserver(titleHeadAnim, options);
@@ -140,6 +167,9 @@ let observerWork = new IntersectionObserver(workAnim, options);
 let observerHistory = new IntersectionObserver(historyAnim, options);
 let observerArt = new IntersectionObserver(artAnim, options);
 let observerBlog = new IntersectionObserver(blogAnim, options);
+let observerMore = new IntersectionObserver(moreAnim, options);
+let observerMoreTextFirst = new IntersectionObserver(moreTextFirstAnim, options);
+let observerMoreTextSecond = new IntersectionObserver(moreTextSecondAnim, options);
 
 const abouts = document.querySelectorAll('.about-anim');
 abouts.forEach(about => observerAbout.observe(about));
@@ -164,3 +194,12 @@ arts.forEach(art => observerArt.observe(art));
 
 const blogs = document.querySelectorAll('.blog-anim');
 blogs.forEach(blog => observerBlog.observe(blog));
+
+const mores = document.querySelectorAll('.more-anim');
+mores.forEach(more => observerMore.observe(more));
+
+const moreTextsFirst = document.querySelectorAll('.more-intro-text-1');
+moreTextsFirst.forEach(moreTextFirst => observerMoreTextFirst.observe(moreTextFirst));
+
+const moreTextsSecond = document.querySelectorAll('.more-intro-text-2');
+moreTextsSecond.forEach(moreTextSecond => observerMoreTextSecond.observe(moreTextSecond));
