@@ -148,9 +148,8 @@ body.offcanvas-active{
 }
 
 #more {
-	height: 100%;
-
 	display: none;
+	background-color: #202020;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -342,6 +341,10 @@ a:link {
 	width: 22px;
 	height: 22px;
 	margin-right: 20px;
+}
+
+.about-button-container:hover {
+	filter: opacity(70%);
 }
 
 /* Titles on the Remaining Pages */
@@ -886,23 +889,56 @@ a:link {
 	padding-bottom: 4%;
 }
 
-#more-intro {
+#more-container {
+	padding: 50px;
+}
+
+#more-content {
 	display: flex;
-	flex-direction: column;
-
-	width: 20%;
+	flex-direction: row;
+	align-items: center;
 }
 
-.more-intro-text-1 {
-	overflow: hidden;
-	white-space: nowrap;
+.more-text {
+	flex: 1;
+	margin-left: 20vw;
 }
 
-.more-intro-text-2 {
-	width: 0;
+.more-text-head {
+	width: 25vw;
 
-	overflow: hidden;
-	white-space: nowrap;
+	color: #F0F0F0;
+	font-family: Inter-SemiBold;
+	font-size: 28px;
+}
+
+.more-text-sub {
+	width: 25vw;
+	margin-top: 10px;
+
+	color: #808080;
+	font-family: Inter-Medium;
+	font-size: 14px;
+}
+
+.more-buttons {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	margin-left: -15vw;
+}
+
+.more-button-container{
+}
+
+.more-icon {
+	width: 35px;
+	height: 35px;
+	margin-right: 40px;
+}
+
+.more-icon:hover {
+	filter: opacity(70%);
 }
 
 /* Views */
@@ -1361,23 +1397,4 @@ a:link {
 	to {
 		opacity: 1;
 	}
-}
-
-@keyframes more {
-	from {
-		opacity: 0;
-		transform: translateY(10%);
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-@keyframes typing {
-	from { 
-		width: 0;
-	}
-  to { 
-  	width: 100%;
-  }
 }
