@@ -12,7 +12,7 @@
 @font-face {font-family: Cinzel-Regular; src: url('Assets/Fonts/Cinzel-Regular.ttf');} 
 
 :root {
-	--delay: 0s;
+	--delay: 1s;
 }
 
 img {
@@ -492,7 +492,7 @@ a:link {
 }
 
 .work-item-description:hover {
-	box-shadow: 0px 20px 20px -20px #202020;
+	box-shadow: 0px 20px 20px -20px #1A1A1A;
 }
 
 .work-item-tags {
@@ -523,6 +523,10 @@ a:link {
 	width: 22px;
 	height: 22px;
 	margin-right: 20px;
+}
+
+.work-item-link-container:hover {
+	filter: opacity(0.7);
 }
 
 .work-item-image-container {
@@ -729,7 +733,6 @@ a:link {
 
 .art-item-container {
 	padding: 0;
-	opacity: 0;
 }
 
 .art-item-image {
@@ -785,8 +788,6 @@ a:link {
 
 	margin-right: 55px;
 	box-shadow: 0px 0px 3px #E5E5E5;
-
-	opacity: 0;
 }
 
 .blog-recommended-item-container:hover {
@@ -839,8 +840,6 @@ a:link {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-
-	opacity: 0;
 }
 
 .blog-item-text {
@@ -877,8 +876,6 @@ a:link {
 	background-color: #D0D0D0;
 	margin-top: 0.75%;
 	margin-bottom: 20px;
-
-	opacity: 0;
 }
 
 #blog-story {
@@ -901,11 +898,11 @@ a:link {
 
 .more-text {
 	flex: 1;
-	margin-left: 20vw;
+	margin-left: calc(50vw - 540px);
 }
 
 .more-text-head {
-	width: 25vw;
+	width: 450px;
 
 	color: #F0F0F0;
 	font-family: Inter-SemiBold;
@@ -913,7 +910,7 @@ a:link {
 }
 
 .more-text-sub {
-	width: 25vw;
+	width: 450px;
 	margin-top: 10px;
 
 	color: #808080;
@@ -925,16 +922,18 @@ a:link {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-	margin-left: -15vw;
+	margin-left: calc(-40vw + 450px);
 }
 
-.more-button-container{
+.more-button-container {
+	width: 35px;
+	height: 35px;
+	margin-right: 40px;
 }
 
 .more-icon {
 	width: 35px;
 	height: 35px;
-	margin-right: 40px;
 }
 
 .more-icon:hover {
@@ -1174,6 +1173,24 @@ a:link {
 		text-align: right;
 		font-size: 11px !important;
 	}
+	#more-content {
+		flex-direction: column;
+	}
+	.more-text {
+		margin-left: 0px !important;
+		text-align: center;
+	}
+	.more-text-head {
+		width: 80vw !important;
+		margin-bottom: 30px;
+	}
+	.more-text-sub {
+		width: 80vw !important;
+		margin-bottom: 60px;
+	}
+	.more-buttons {
+		margin-left: 10px;
+	}
 }
 
 @media only screen and (max-width: 992px) {
@@ -1276,6 +1293,15 @@ a:link {
 	}
 	.blog-item-details {
 		font-size: calc(9px + 0.3vw);
+	}
+	.more-text {
+		margin-left: 60px;
+	}
+	.more-text-head {
+		width: 37.5vw;
+	}
+	.more-text-sub {
+		width: 37.5vw;
 	}
 }
 

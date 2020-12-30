@@ -1,28 +1,53 @@
 {
+  "Blog" : {
+    "recommended" : {
+      "the-loyolite" : {
+        "title" : "The Loyolite",
+        "image" : "Assets/Graphics/background.jpg",
+        "url" : "blog/the-loyolite/index.html"
+      }
+    },
+    "posts" : {
+      "the-loyolite" : {
+        "title" : "The Loyolite",
+        "date" : "Jan 2020",
+        "words" : "1116",
+        "url" : "blog/the-loyolite/index.html"
+      }
+    },
+    "fiction" : {
+      "the-loyolite" : {
+        "title" : "The Loyolite",
+        "date" : "Jan 2020",
+        "words" : "1116",
+        "url" : "blog/the-loyolite/index.html"
+      }
+    }
+  },
   "Art" : {
-    "art-1" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-2" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-3" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-4" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-5" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-6" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-7" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-8" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-9" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-10" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-11" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-    "art-12" : "<div class=\"art-item-image\" style=\"background: url('https://imgur.com/D4Dp8gG.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>"
+    "art-01" : "https://imgur.com/8K91FUr.jpg",
+    "art-02" : "https://imgur.com/zAGlb97.jpg",
+    "art-03" : "https://imgur.com/8K91FUr.jpg",
+    "art-04" : "https://imgur.com/8K91FUr.jpg",
+    "art-05" : "https://imgur.com/8K91FUr.jpg",
+    "art-06" : "https://imgur.com/pgVcQsj.jpg",
+    "art-07" : "https://imgur.com/8K91FUr.jpg",
+    "art-08" : "https://imgur.com/8K91FUr.jpg",
+    "art-09" : "https://imgur.com/8K91FUr.jpg",
+    "art-10" : "https://imgur.com/8K91FUr.jpg",
+    "art-11" : "https://imgur.com/8K91FUr.jpg",
+    "art-12" : "https://imgur.com/8K91FUr.jpg"
   },
   "History" : {
     "positions" : {
       "ieee" : {
-        "position-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/ieee.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
         "position-1-title" : "Co-ordinator/Co-Founder",
         "position-1-subtitle" : "<a href=\"http://ieee.cet.ac.in/index.php/execom-2020/\">IEEE SB CET Special Interest Group for AI</a> &#183; Since February 2020",
         "position-1-description" : "<ul><li>Set up an industry collaboration with <a href=\"https://neuroplex.in/\"> Neuroplex </a> to provide experienced training and internship opportunities.</li><li>Hosted <a href=\"https://github.com/Jozdien/AI-For-Dummies\">workshop series</a> on Machine Learning, Deep Learning, and Friendly AI - 23 participants went on to complete projects in predictive analysis.</li><li>Hosted webinar series on Data Science and Deep Learning.</li><li>Organized AI Safety competiton, which closed with an <a href=\"https://www.youtube.com/watch?v=4nN8wUVZ9u0\">analysis</a> of the common fallacies faced  (Check that link out, I swear it's cooler than it sounds).</li><li>Collaborated with the <a href=\"https://intelligence.org/\">Machine Intelligence Research Institute</a> for instructional material and technical assistance.</li><li>Founded 2 Special Interest Groups for AI in IEEE Student Branches across the state.</li></ul>"
       },
       "airli" : {
-        "position-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/airli.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
         "position-2-title" : "Intern - ML Team",
         "position-2-subtitle" : "<a href=\"https://www.orbitaustralia.com/\">Airli, OrbitAustralia</a> &#183; Since September 2020",
         "position-2-description" : "Developing a machine learning model to process satellite imagery to generate actionable insights relating to pollen forecasts, for clients working to improve quality-of-life apropos of asthma and air quality."
@@ -34,7 +59,7 @@
         "position-3-description" : "I do front-end design and development."
       },
       "mulearn" : {
-        "position-4-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "position-4-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/mulearn.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
         "position-4-title" : "Logistics Manager",
         "position-4-subtitle" : "<a href=\"https://www.facebook.com/mulearn.org/\">MuLearn</a> &#183; February 2019 - August 2019",
         "position-4-description" : "<ul><li>Oversaw heuristics of instructional methods and handling of source material.</li><li>Managing and formatting the MuLearn website.</li>"
@@ -56,10 +81,10 @@
         "award-3-subtitle" : "1st Place &#183; March 2019",
         "award-3-description" : "State-level tag-team coding competition conducted by the SBs of IEEE, IEDC, and ISTE of Barton Hill College of Engineering."
       },
-      "xtreme" : {
-        "award-4-title" : "IEEE Xtreme'19",
-        "award-4-subtitle" : "Global Rank 712 &#183; February 2019",
-        "award-4-description" : "Global team 24-hour online coding competition."
+      "akcssc" : {
+        "award-4-title" : "AKCSSC Web Design Contest",
+        "award-4-subtitle" : "1st Place; November 2020",
+        "award-4-description" : "State-level web design competition conducted by IEEE CSKS as part of AKCSSC 2020.<br> Submitted the NextJS-built web front-end of Veris (refer in the preceding section)."
       },
       "oratrium" : {
         "award-5-title" : "Oratrium",
@@ -69,13 +94,13 @@
     },
     "education" : {
       "cet" : {
-        "education-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "education-1-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/cet.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
         "education-1-title" : "College of Engineering Trivandrum",
         "education-1-subtitle" : "B.Tech CSE &#183; Class of 2022",
         "education-1-description" : "When I'm not cutting classes to do something else, I'm a third year Computer Science undergraduate."
       },
       "loyola" : {
-        "education-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/freelance.gif'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+        "education-2-image" : "<div class=\"history-item-image\" style=\"background: url('Assets/Graphics/loyola.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
         "education-2-title" : "Loyola School, Thiruvananthapuram",
         "education-2-subtitle" : "ISC &#183; Batch of 2018",
         "education-2-description" : "There's much more to say than could fit in this space to do justice."
@@ -83,68 +108,68 @@
     }
   },
   "Work" : {
-    "metise" : {
-      "work-1-background" : "Assets/Graphics/background.jpg",
+    "the-calibration-game" : {
+      "work-1-background" : "Assets/Graphics/the-calibration-game.png",
       "work-1-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-1-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-1-link-external" : "<a href=\"\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-1-link-github" : "<a href=\"https://github.com/Jozdien/Metise\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
-      "work-1-tag-1" : "TensorFlow",
-      "work-1-tag-2" : "cGAN",
-      "work-1-title" : "Metise"
+      "work-1-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/the-calibration-game.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-1-link-external" : "<a href=\"https://play.google.com/store/apps/details?id=com.the_calibration_game&hl=en_US&gl=US\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-1-link-github" : "<a href=\"https://github.com/Jozdien/The_Calibration_Game\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-1-tag-1" : "React Native",
+      "work-1-tag-2" : "Firebase",
+      "work-1-tag-3" : "Heuristics",
+      "work-1-title" : "The Calibration Game"
+    },
+    "metise" : {
+      "work-2-background" : "Assets/Graphics/metise.png",
+      "work-2-description" : "A conditional generative adversarial network for fixed image (de-)compression.  Compression is performed along the dimensions of colour density, being a relatively intractable direction outside neural net reconstruction. <br><br> I'm currently writing a paper on this, but the code is available below.",
+      "work-2-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/metise.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-2-link-external" : "<a href=\"https://colab.research.google.com/drive/1eIQfcljLeq5gWOipm9fyuVoVvX0zenLZ\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-2-link-github" : "<a href=\"https://github.com/Jozdien/Metise\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-2-tag-1" : "TensorFlow",
+      "work-2-tag-2" : "cGAN",
+      "work-2-title" : "Metise"
     },
     "mentem" : {
-      "work-2-background" : "Assets/Graphics/background.jpg",
-      "work-2-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-2-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-2-link-external" : "<a href=\"\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-2-link-github" : "<a href=\"https://github.com/Jozdien/Mentem\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
-      "work-2-tag-1" : "OpenCV",
-      "work-2-tag-2" : "SpaCy",
-      "work-2-tag-3" : "WebRTC",
-      "work-2-title" : "Mentem"
-    },
-    "the-calibration-game" : {
-      "work-3-background" : "Assets/Graphics/background.jpg",
-      "work-3-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-3-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-3-link-external" : "<a href=\"https://play.google.com/store/apps/details?id=com.the_calibration_game&hl=en_US&gl=US\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-3-link-github" : "<a href=\"https://github.com/Jozdien/The_Calibration_Game\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
-      "work-3-tag-1" : "React Native",
-      "work-3-tag-2" : "Firebase",
-      "work-3-tag-3" : "Heuristics",
-      "work-3-title" : "The Calibration Game"
+      "work-3-background" : "Assets/Graphics/mentem.png",
+      "work-3-description" : "Mentem was originally envisioned as an all in one platform for mental health support using virtual, professional, and community resources, triage using speech and facial analysis, and health clinic assistance.  It is currently being developed into an all in one platform - a hospital ERP system.",
+      "work-3-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/mentem.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-3-link-external" : "<a href=\"https://github.com/rabeehrz/Invictus\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-3-link-github" : "<a href=\"https://github.com/Jozdien/Mentem\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-3-tag-1" : "OpenCV",
+      "work-3-tag-2" : "SpaCy",
+      "work-3-tag-3" : "WebRTC",
+      "work-3-title" : "Mentem"
     },
     "karma" : {
-      "work-4-background" : "Assets/Graphics/background.jpg",
-      "work-4-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-4-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-4-link-external" : "<a href=\"\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-4-link-github" : "<a href=\"https://github.com/Jozdien/Karma\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-4-background" : "Assets/Graphics/karma.png",
+      "work-4-description" : "An emergency management framework that incentivizes small-scale demand-specific rescue operations.  Emergency alerts are sent out on a tiered structure using P2P networks, ordered by severity.  Damage extent maps are plotted using alert data.",
+      "work-4-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/karma.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-4-link-external" : "<a href=\"\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-4-link-github" : "<a href=\"https://github.com/Jozdien/Karma\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
       "work-4-tag-1" : "PHP",
       "work-4-tag-2" : "Leaflet",
       "work-4-title" : "Karma"
     },
     "veris" : {
-      "work-5-background" : "Assets/Graphics/background.jpg",
-      "work-5-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-5-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-5-link-external" : "<a href=\"\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-5-link-github" : "<a href=\"https://github.com/Jozdien/veris-web\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-5-background" : "Assets/Graphics/veris.png",
+      "work-5-description" : "An open-source educational administration framework I helped build.  This is being developed to replace outmoded methods of handling data and process in higher educational institutes, while providing the flexibility to fit specific use-cases. <br><br>  Currently in alpha testing in CET.",
+      "work-5-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/veris.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-5-link-external" : "<a href=\"https://github.com/ccfcet/karma\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-5-link-github" : "<a href=\"https://github.com/Jozdien/veris-web\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
       "work-5-tag-1" : "NextJS",
       "work-5-tag-2" : "React Native",
       "work-5-title" : "Veris"
     },
     "phemos" : {
-      "work-6-background" : "Assets/Graphics/background.jpg",
-      "work-6-description" : "An android app that optimizes credence calibration - the accuracy of belief strengths against real success rates - with a scoring system that incentivizes alignment of \"sureness\" with success rates. <br><br> <a href=\"https://acritch.com/credence-game/\">A better description can be found here.</a>",
-      "work-6-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
-      "work-6-link-external" : "<a href=\"\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
-      "work-6-link-github" : "<a href=\"https://github.com/Jozdien/Phemos\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
+      "work-6-background" : "Assets/Graphics/phemos.png",
+      "work-6-description" : "A news algorithm I developed to account for a documented positive feedback relationship between media coverage and electoral polling.  The algorithm weighs down overexposure on a log scale. <br><br> <a href=\"https://www.youtube.com/watch?v=9Tji1g0WrPw\">More on the aforementioned effect here.<a/>",
+      "work-6-image" : "<div class=\"work-item-image\" style=\"background: url('Assets/Graphics/phemos.png'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div>",
+      "work-6-link-external" : "<a href=\"phemos.pdf\" target=\"_blank\"> <img class=\"work-external\" src=\"Assets/Graphics/external.svg\"> </a>",
+      "work-6-link-github" : "<a href=\"https://github.com/Jozdien/Phemos\" target=\"_blank\"> <img class=\"work-github\" src=\"Assets/Graphics/github.svg\"> </a>",
       "work-6-tag-1" : "Research",
       "work-6-tag-2" : "Python",
       "work-6-title" : "Phemos"
     }
   },
-  "about-description" : "Hello there.  I'm Arun Jose._nI develop, research, write, and make art.  I like making things, and when I'm thinking of ideas, I don't have any particular domain in mind.  I sometimes go by the mononym Jozdien.  ​I'm very interested in Artificial Intelligence - it'll break an intelligence barrier we've known forever, and what part of that doesn't sound cool?_nI enjoy all genres of fiction when done well, but my favourites are rational fiction and meta/absurd comedy (as well as crack fanfiction, which feels appropriate closed off in brackets)._nInstagram and Email are my most commonly checked platforms, so if you have ideas, want to collaborate, or just think I'd find something interesting (I probably will - err on the side of messaging me), just send me a message with the phrase \"Duncain wants you\"."
+  "about-description" : "Hello there.  I'm Arun Jose.<br><br>I develop, research, write, and draw.  I like making things, and I make whatever I think would be good, regardless of domain.  I sometimes go by the mononym Jozdien.  ​I think AI Alignment is the most important problem of our time, and that's what I want to spend my time working on.<br><br>I enjoy all genres of fiction when done well, but my favourites are rational fiction and meta/absurd comedy (as well as crack fanfiction, which feels appropriate closed off in brackets).<br><br>Instagram and Email are my most frequented platforms for messages, so if you have ideas, want to collaborate, or just think I'd find something interesting (I probably will - err on the side of messaging me), just send me a message with the phrase \"Duncain wants you\"."
 }

@@ -11,7 +11,7 @@
   <script src="script.js" defer></script>
 </head>
 
-<body onload="splash(0)">
+<body onload="splash(1000)">
 	<div id="mobile-menu">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
 		  <button class="btn btn-dark" type="button" data-trigger="#main_nav">
@@ -28,7 +28,7 @@
 					<li class="nav-item"> <a class="nav-link" href="#history"> History </a></li>
 					<li class="nav-item"> <a class="nav-link" href="#art"> Art </a></li>
 					<li class="nav-item"> <a class="nav-link" href="#blog"> Blog </a></li>
-					<li class="nav-item"> <a class="nav-link" href="#more"> More </a></li>
+					<li class="nav-item"> <a class="nav-link" target="_blank" href="resume.pdf"> Resume </a></li>
 				</ul>
 		  </div>
 		</nav>
@@ -148,6 +148,11 @@
 						<div class="about-button-container">
 							<a href="https://twitter.com/jozdien">
 								<img class="about-twitter" src="Assets/Graphics/twitter.svg">
+							</a>
+						</div>
+						<div class="about-button-container">
+							<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+								<img class="about-reddit" src="Assets/Graphics/reddit.svg">
 							</a>
 						</div>
 						<div class="about-button-container">
@@ -634,30 +639,6 @@
 				</div>
 			</div>
 			<div class="row" id="art-items">
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-1">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-2">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-3">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-4">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-5">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-6">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-7">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-8">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-9">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-10">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-11">
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim" id="art-12">
-				</div>
 			</div>
 		</div>
 	</div>
@@ -678,44 +659,20 @@
 					Recommended
 				</div>
 				<div class="blog-recommended-items">
-					<a href="" class="blog-recommended-item-container blog-anim">
-						<div class="blog-item-image-container">
-							<div class="blog-item-image" style="background: url('Assets/Graphics/background.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
-						</div>
-						<div class="blog-recommended-item-text">
-							The Loyolite
-						</div>
-					</a>
 				</div>
 			</div>
 			<div class="row" id="blog-post">
 				<div class="blog-subtitle blog-anim">
 					Posts
 				</div>
-				<div class="blog-items">
-					<div class="blog-item-container blog-anim">
-						<a href="blog/the-loyolite/index.html" class="blog-item-text">The Loyolite</a>
-						<div class="blog-item-details">
-							Jan 2020 &#183; Words: 1116
-						</div>
-					</div>
-					<div class="blog-divider blog-anim">
-					</div>
+				<div class="blog-items blog-post-items">
 				</div>
 			</div>
 			<div class="row" id="blog-story">
 				<div class="blog-subtitle blog-anim">
 					Fiction
 				</div>
-				<div class="blog-items">
-					<div class="blog-item-container blog-anim">
-						<a href="" class="blog-item-text">The Loyolite</a>
-						<div class="blog-item-details">
-							Jan 2020 &#183; Words: 1116
-						</div>
-					</div>
-					<div class="blog-divider blog-anim">
-					</div>
+				<div class="blog-items blog-fiction-items">
 				</div>
 			</div>
 		</div>
