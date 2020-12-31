@@ -12,7 +12,7 @@
 @font-face {font-family: Cinzel-Regular; src: url('Assets/Fonts/Cinzel-Regular.ttf');} 
 
 :root {
-	--delay: 1s;
+	--delay: 2s;
 }
 
 img {
@@ -80,25 +80,38 @@ body.offcanvas-active{
 	font-size: 14px;
 }
 
-/* Page Containers */
+/* Splash Page */
 
 #splashscreen {
 	position:absolute;
-  top:0;
-  left:0;
-  bottom:0;
+  height: 100%;
   width:100%;
 
-  background-image: url('Assets/Graphics/splash.gif');
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+
 	background-color: #202020;
 }
+
+.splash-text {
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 auto;
+	animation: typing var(--delay) steps(68, end);
+
+	font-size: 20px;
+	color: #F0F0F0;
+	font-family: SFMono-Regular;
+}
+
+/* Page Containers */
 
 #landing {
 	height: 100%;
 
-	background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("Assets/Graphics/background.jpg");
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("Assets/Graphics/background.png");
 	background-color: #101010;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1306,6 +1319,15 @@ a:link {
 }
 
 /* Animations */
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
 
 @keyframes landing-line {
 	from {

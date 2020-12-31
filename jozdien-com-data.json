@@ -3,7 +3,7 @@
     "recommended" : {
       "the-loyolite" : {
         "title" : "The Loyolite",
-        "image" : "Assets/Graphics/background.jpg",
+        "image" : "Assets/Graphics/loyola.jpg",
         "url" : "blog/the-loyolite/index.html"
       }
     },
