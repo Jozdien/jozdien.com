@@ -4,7 +4,7 @@
       "the-loyolite" : {
         "title" : "The Loyolite",
         "image" : "Assets/Graphics/loyola.jpg",
-        "url" : "blog/the-loyolite/index.html"
+        "url" : "blog/the-loyolite/"
       }
     },
     "posts" : {
@@ -12,7 +12,7 @@
         "title" : "The Loyolite",
         "date" : "Jan 2020",
         "words" : "1116",
-        "url" : "blog/the-loyolite/index.html"
+        "url" : "blog/the-loyolite/"
       }
     },
     "fiction" : {
@@ -20,23 +20,26 @@
         "title" : "The Loyolite",
         "date" : "Jan 2020",
         "words" : "1116",
-        "url" : "blog/the-loyolite/index.html"
+        "url" : "blog/the-loyolite/"
       }
     }
   },
   "Art" : {
-    "art-01" : "https://imgur.com/8K91FUr.jpg",
-    "art-02" : "https://imgur.com/zAGlb97.jpg",
-    "art-03" : "https://imgur.com/8K91FUr.jpg",
-    "art-04" : "https://imgur.com/8K91FUr.jpg",
-    "art-05" : "https://imgur.com/8K91FUr.jpg",
-    "art-06" : "https://imgur.com/pgVcQsj.jpg",
-    "art-07" : "https://imgur.com/8K91FUr.jpg",
-    "art-08" : "https://imgur.com/8K91FUr.jpg",
-    "art-09" : "https://imgur.com/8K91FUr.jpg",
-    "art-10" : "https://imgur.com/8K91FUr.jpg",
-    "art-11" : "https://imgur.com/8K91FUr.jpg",
-    "art-12" : "https://imgur.com/8K91FUr.jpg"
+    "art-01-lupin" : "https://imgur.com/8K91FUr.jpg",
+    "art-02-memory" : "https://imgur.com/zAGlb97.jpg",
+    "art-03-community" : {
+      "thumbnail": "https://imgur.com/lJIYKVT.jpg",
+      "video" : "https://imgur.com/lQx7102.mp4"
+    },
+    "art-04-goldensun" : "https://imgur.com/lm8lZnq.jpg",
+    "art-05-la" : "https://imgur.com/sUiYeSF.jpg",
+    "art-06-sandman" : "https://imgur.com/VfHaK3w.jpg",
+    "art-07-icarus" : "https://imgur.com/2ZNOiv1.jpg",
+    "art-08-sora" : "https://imgur.com/2eW2b54.jpg",
+    "art-09-batman" : "https://imgur.com/pgVcQsj.jpg",
+    "art-10-aot" : "https://imgur.com/o4BRQRz.jpg",
+    "art-11-nogamenolife" : "https://imgur.com/qh9mCU8.jpg",
+    "art-12-pokemon" : "https://imgur.com/icDBdMP.jpg"
   },
   "History" : {
     "positions" : {
