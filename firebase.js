@@ -57,21 +57,21 @@ var firebaseArt = database.ref('Art');
 firebaseArt.once('value').then((snapshot) => {
 	snapshot.forEach(function(property) {
 		var div = document.querySelector("#art-items");
-		var thumbnail = ""
-		var video = ""
+		var thumbnail = "";
+		var video = "";
 		if(property.key == "art-03-community") {
 			property.forEach(function(image) {
 				if(image.key == "thumbnail")
-					thumbnail = image.val()
+					thumbnail = image.val();
 				else
-					video = image.val()
+					video = image.val();
 			})
 			var str = "<div class=\"col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim\"><div onclick=\"window.open('" + video + "','mywindow');\" class=\"art-item-image\" style=\"background: url('" + thumbnail + 
-								"'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div></div>"
+								"'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div></div>";
 		}
 		else {
 			var str = "<div class=\"col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim\"><div onclick=\"window.open('" + property.val() + "','mywindow');\" class=\"art-item-image\" style=\"background: url('" + property.val() + 
-								"'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div></div>"
+								"'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div></div>";
 		}
 		div.innerHTML += str;
 	})
