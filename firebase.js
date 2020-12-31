@@ -66,7 +66,6 @@ firebaseArt.once('value').then((snapshot) => {
 				else
 					video = image.val();
 			})
-			console.log(thumbnail);
 			var str = "<div class=\"col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim\"><div onclick=\"window.open('" + video + "','mywindow');\" class=\"art-item-image\" style=\"background: url('" + thumbnail + 
 								"'); background-position: center; background-repeat: no-repeat; background-size: cover;\"></div></div>";
 		}
