@@ -1175,6 +1175,9 @@ a:link {
 /* Views */
 
 @media only screen and (max-width: 576px) {
+	.splash-text {
+		font-size: 4vw;
+	}
 	.about-image-container {
 		margin-left: 25% !important;
 	}
