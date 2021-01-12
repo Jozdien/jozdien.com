@@ -111,7 +111,7 @@ body.offcanvas-active{
 #landing {
 	height: 100%;
 
-	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("Assets/Graphics/background.jpg");
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("Assets/Graphics/background.webp");
 	background-color: #101010;
 	background-position: center;
 	background-repeat: no-repeat;
