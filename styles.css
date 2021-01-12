@@ -1027,19 +1027,19 @@ a:link {
 }
 
 .blog-recommended-item-text {
+	width: 280px;
 	color: #101010;
 	font-family: Cinzel-Regular;
 	font-size: 20px;
 
 	padding: 3%;
 	padding-left: 5%;
-	padding-top: 4%;
 	background-color: #FFFFFF;
 
 	overflow: hidden;
 	text-overflow: ellipsis;
 	display: -webkit-box;
-	-webkit-line-clamp: 1;
+	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
 }
 
@@ -1397,6 +1397,7 @@ a:link {
 		height: 175px !important;
 	}
 	.blog-recommended-item-text {
+		width: 350px !important;
 		font-size: 20px !important;
 	}
 	.blog-item-text {
@@ -1474,6 +1475,7 @@ a:link {
 		height: 140px;
 	}
 	.blog-recommended-item-text {
+		width: 28.22vw;
 		font-size: 2vw;
 	}
 	.blog-items {
