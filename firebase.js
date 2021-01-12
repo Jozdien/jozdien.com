@@ -1,3 +1,4 @@
+/*
 var firebaseConfig = {
   apiKey: "AIzaSyCIoIdsgDawxLNp_XSPyhyr_XqMqD5w3EI",
   authDomain: "jozdien-com.firebaseapp.com",
@@ -164,3 +165,4 @@ firebaseBlog.once('value').then((snapshot) => {
 		}
 	})
 });
+*/

@@ -111,7 +111,7 @@ body.offcanvas-active{
 #landing {
 	height: 100%;
 
-	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("Assets/Graphics/background.png");
+	background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("Assets/Graphics/background.jpg");
 	background-color: #101010;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -305,7 +305,9 @@ a:link {
 
 	margin-top: 3.5vh;
 	margin-left: -3vw;
+}
 
+.about-anim {
 	opacity: 0;
 }
 
@@ -325,8 +327,6 @@ a:link {
 	color: #F0F0F0;
 	font-size: 36px;
 	font-family: 'Inter-SemiBold';
-
-	opacity: 0;
 }
 
 .about-description {
@@ -337,8 +337,6 @@ a:link {
 	font-family: 'Inter-Regular';
 	text-align: justify;
 	text-justify: auto;
-
-	opacity: 0;
 }
 
 .about-buttons {
@@ -346,8 +344,6 @@ a:link {
 	flex-direction: row;
 
 	margin-top: 3vh;
-
-	opacity: 0;
 }
 
 .about-button-container {
@@ -458,8 +454,10 @@ a:link {
 
 .work-row-item-container {
 	display: flex;
-	flex-direction: row;
+	flex-direction: row
+}
 
+.work-anim {
 	opacity: 0;
 }
 
@@ -578,6 +576,90 @@ a:link {
 	margin-bottom: 10vw;
 }
 
+.work-1-image {
+	background: url('Assets/Graphics/Work/the-calibration-game.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.work-2-image {
+	background: url('Assets/Graphics/Work/metise.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.work-3-image {
+	background: url('Assets/Graphics/Work/mentem.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.work-4-image {
+	background: url('Assets/Graphics/Work/karma.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.work-5-image {
+	background: url('Assets/Graphics/Work/veris.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.work-6-image {
+	background: url('Assets/Graphics/Work/phemos.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+#work-1-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/the-calibration-game.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work-2-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/metise.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work-3-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/mentem.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work-4-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/karma.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work-5-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/veris.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#work-6-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/phemos.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 /*  History */
 
 #history-positions {
@@ -594,7 +676,9 @@ a:link {
 	font-size: 30px;
 	font-family: Inter-SemiBold;
 	color: #101010;
+}
 
+.history-anim {
 	opacity: 0;
 }
 
@@ -604,8 +688,6 @@ a:link {
 	justify-content: center;
 
 	margin-bottom: 40px;
-
-	opacity: 0;
 }
 
 .history-item-image-container {
@@ -678,8 +760,6 @@ a:link {
 	justify-content: center;
 
 	margin-bottom: 40px;
-
-	opacity: 0;
 }
 
 .history-award-item-head {
@@ -731,8 +811,48 @@ a:link {
 	justify-content: center;
 
 	margin-bottom: 40px;
+}
 
-	opacity: 0;
+.history-position-1-image {
+	background: url('Assets/Graphics/History/ieee.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-position-2-image {
+	background: url('Assets/Graphics/History/airli.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-position-3-image {
+	background: url('Assets/Graphics/History/freelance.gif'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-position-4-image {
+	background: url('Assets/Graphics/History/mulearn.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-education-1-image {
+	background: url('Assets/Graphics/History/cet.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-education-2-image {
+	background: url('Assets/Graphics/History/loyola.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
 
 /* Art */
@@ -748,6 +868,10 @@ a:link {
 	padding: 0;
 }
 
+.art-anim {
+	opacity: 0;
+}
+
 .art-item-image {
 	position: relative;
 
@@ -761,6 +885,90 @@ a:link {
 
 	box-shadow: 6px 6px 20px #101010;
 	transform: scale(1.02);
+}
+
+.art-1 {
+	background: url('Assets/Graphics/Art/Lupin.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-2 {
+	background: url('Assets/Graphics/Art/Memory.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-3 {
+	background: url('Assets/Graphics/Art/Community.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-4 {
+	background: url('Assets/Graphics/Art/GoldenSun.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-5 {
+	background: url('Assets/Graphics/Art/La.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-6 {
+	background: url('Assets/Graphics/Art/Sandman.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-7 {
+	background: url('Assets/Graphics/Art/Icarus.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-8 {
+	background: url('Assets/Graphics/Art/Sora.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-9 {
+	background: url('Assets/Graphics/Art/Batman.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-10 {
+	background: url('Assets/Graphics/Art/AoT.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-11 {
+	background: url('Assets/Graphics/Art/NoGameNoLife.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.art-12 {
+	background: url('Assets/Graphics/Art/Pokemon.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
 
 /* Blog */
@@ -784,7 +992,9 @@ a:link {
 	font-size: 30px;
 	font-family: Inter-SemiBold;
 	color: #101010;
+}
 
+.blog-anim {
 	opacity: 0;
 }
 
@@ -898,6 +1108,15 @@ a:link {
 
 	padding-bottom: 4%;
 }
+
+.blog-recommended-1 {
+	background: url('Assets/Graphics/Blog/loyola.jpg'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+/* More */
 
 #more-container {
 	padding: 50px;
@@ -1118,6 +1337,7 @@ a:link {
 	}
 	.history-subtitle {
 		text-align: center;
+		margin-left: 0px !important;
 	}
 	.history-position-item-container {
 		flex-direction: column;
@@ -1160,7 +1380,8 @@ a:link {
 		height: 33.33vw !important;
 	}
 	.blog-subtitle {
-		margin-left: 0px;
+		margin-left: 0px !important;
+		padding-left: 0px !important;
 		align-self: center;
 	}
 	.blog-recommended-items {
