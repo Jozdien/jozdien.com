@@ -12,7 +12,7 @@
 @font-face {font-family: Cinzel-Regular; src: url('Assets/Fonts/Cinzel-Regular.ttf');} 
 
 :root {
-	--delay: 2s;
+	--delay: 2.5s;
 }
 
 img {
