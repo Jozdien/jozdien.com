@@ -17,14 +17,14 @@
 
 img {
 	max-width: 100%;
-  height: auto;
-  width: auto\9;
+	height: auto;
+	width: auto\9;
 }
 
 body, html {
 	height: 100%;
 	margin: 0px;
-  padding: 0px;
+	padding: 0px;
 	overflow-x: hidden; 
 }
 
