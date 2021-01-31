@@ -1116,6 +1116,13 @@ a:link {
 	background-size: cover;
 }
 
+.blog-recommended-2 {
+	background: url('Assets/Graphics/Blog/godel.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
 /* More */
 
 #more-container {
