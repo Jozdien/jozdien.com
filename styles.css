@@ -25,7 +25,8 @@ body, html {
 	height: 100%;
 	margin: 0px;
 	padding: 0px;
-	overflow-x: hidden; 
+	overflow-x: hidden;
+	background-color: #101010; 
 }
 
 /* Mobile Menu */
@@ -119,8 +120,6 @@ body.offcanvas-active{
 }
 
 #about {
-	height: 100%;
-
 	display: none;
 	background-color: #101010;
 	background-position: center;
@@ -295,8 +294,6 @@ a:link {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-
-	height: 100%;
 }
 
 .about-image-container {
@@ -318,23 +315,26 @@ a:link {
 
 #about-text-container {
 	width: 100%;
-	margin-left: -5vw;
-	padding-right: calc((100vw - 900px)/1020 * 288); /* calc((100vw - 900px)/1020 * 288) */
+	justify-content: center;
+	align-self: center;
+	align-content: center;
+	align-items: center;
+	margin-top: 50px;
 }
 
 .about-head {
-	width: 600px;
+	width: 65vw;
 	color: #F0F0F0;
 	font-size: 36px;
 	font-family: 'Inter-SemiBold';
 }
 
 .about-description {
-	width: 600px;
+	width: 65vw;
 	margin-top: 5%;
-	color: #B0B0B0;
+	color: #D0D0D0;
 	font-size: 16px;
-	font-family: 'Inter-Regular';
+	font-family: 'Inter-Light';
 	text-align: justify;
 	text-justify: auto;
 }
@@ -344,6 +344,7 @@ a:link {
 	flex-direction: row;
 
 	margin-top: 3vh;
+	margin-bottom: 50px;
 }
 
 .about-button-container {
@@ -527,7 +528,7 @@ a:link {
 	flex-direction: row;
 	align-items: flex-end;
 
-	height: 25px;
+	height: 40px;
 }
 
 .work-item-link-container {
@@ -591,14 +592,14 @@ a:link {
 }
 
 .work-3-image {
-	background: url('Assets/Graphics/Work/mentem.png'); 
+	background: url('Assets/Graphics/Work/aumann.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
 .work-4-image {
-	background: url('Assets/Graphics/Work/karma.jpg'); 
+	background: url('Assets/Graphics/Work/mentem.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -633,14 +634,14 @@ a:link {
 }
 
 #work-3-background {
-	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/mentem.png");
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/aumann.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #work-4-background {
-	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/karma.jpg");
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/mentem.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -814,28 +815,35 @@ a:link {
 }
 
 .history-position-1-image {
-	background: url('Assets/Graphics/History/ieee.png'); 
+	background: url('Assets/Graphics/History/ieeecsks.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
 .history-position-2-image {
-	background: url('Assets/Graphics/History/airli.png'); 
+	background: url('Assets/Graphics/History/ieee.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
 .history-position-3-image {
-	background: url('Assets/Graphics/History/freelance.gif'); 
+	background: url('Assets/Graphics/History/mirix.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
 .history-position-4-image {
-	background: url('Assets/Graphics/History/mulearn.png'); 
+	background: url('Assets/Graphics/History/airli.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
+.history-position-5-image {
+	background: url('Assets/Graphics/History/freelance.gif'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -1242,10 +1250,7 @@ a:link {
     transform: translateX(-100%);
   }
   #about {
-  	height: 850px;
   	background-size: contain;
-  	padding-top: 20px;
-  	padding-bottom: 20px;
   }
   .about-image-container {
   }
@@ -1274,16 +1279,17 @@ a:link {
 		margin-top: 5vh !important;
 	}
 	#about-text-container {
-		padding-left: 11vw !important;
+		margin-left: 3vw;
 	}
 	.about-head {
 		font-size: calc(14px + 1vw);
+		margin-bottom: 25px;
 	}
 	.about-description {
 		font-size: calc(10px + 1vw);
 	}
 	.about-buttons {
-		margin-bottom: 5vh;
+		margin-bottom: 40px;
 	}
 	.title-line-left {
 		display: none;
@@ -1449,14 +1455,11 @@ a:link {
 		width: 200px !important;
 		height: 200px !important;
 	}
-	#about-text-container {
-		padding-left: 80px;
-	}
 	.about-head {
 		width: 100% !important;
 	}
 	.about-description {
-		width: 100% !important;
+		width: 97% !important;
 		margin-top: 2%;
 	}
 	.history-subtitle {
@@ -1501,9 +1504,6 @@ a:link {
 		width: 34vw;
 		height: 34vw;
 		padding-right: 1vw;
-	}
-	#about-text-container {
-		padding-right: 2vw;
 	}
 	.about-head {
 		width: 50vw;
