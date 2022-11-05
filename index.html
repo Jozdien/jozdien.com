@@ -30,7 +30,7 @@
 				<ul class="navbar-nav w-100 justify-content-center">
 					<li class="nav-item"> <a class="nav-link" href="#about"> About </a> </li>
 					<li class="nav-item"> <a class="nav-link" href="#work"> Work </a></li>
-					<li class="nav-item"> <a class="nav-link" href="#history"> History </a></li>
+					<li class="nav-item" hidden> <a class="nav-link" href="#history"> History </a></li>
 					<li class="nav-item"> <a class="nav-link" href="#art"> Art </a></li>
 					<li class="nav-item"> <a class="nav-link" href="#blog"> Blog </a></li>
 					<li class="nav-item"> <a class="nav-link" target="_blank" href="resume.pdf"> Resume </a></li>
@@ -91,12 +91,12 @@
 					<div class="landing-menu-divider">
 						/
 					</div>
-					<a href="#history">
+					<a href="#history" hidden>
 						<div class="landing-menu-item">
 							History
 						</div>
 					</a>
-					<div class="landing-menu-divider">
+					<div class="landing-menu-divider" hidden>
 						/
 					</div>
 					<a href="#art">
@@ -148,6 +148,11 @@
 						Instagram and Email are my most frequented platforms for messages, so if you have ideas, want to collaborate, or just think I'd find something interesting (I probably will - err on the side of messaging me), just send me a message with the phrase "Xavier Avial".
 					</div>
 					<div class="about-buttons about-anim">
+						<div class="about-button-container">
+							<a href="https://www.lesswrong.com/users/jozdien" target="_blank">
+								<img class="about-lw" src="Assets/Graphics/Links/lesswrong.png">
+							</a>
+						</div>
 						<div class="about-button-container">
 							<a href="https://www.instagram.com/jozdien/" target="_blank">
 								<img class="about-insta" src="Assets/Graphics/Links/insta.svg">
@@ -249,19 +254,19 @@
 					<div class="work-item-content-outer">
 						<div class="work-item-content">
 							<div id="work-2-title" class="work-item-title">
-								Metise
+								Aumann's Game
 							</div>
 							<div id="work-2-description" class="work-item-description">
-								Reversible colour-density image compression using conditional adversarial networks.  Compression is performed along the dimensions of colour density, being a relatively intractable direction outside neural net reconstruction. <br><br>  Links to the preprint and code below.
+								Website implementation of the multi-player rationality calibration game based on Aumann's Agreement Theorem.  <br><br> <a href="https://www.lesswrong.com/posts/nmwog5hGidZniDDpR/aumann-agreement-game">More on that here.</a>
 							</div>
 							<div class="work-item-links">
 								<div id="work-2-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/Metise" target="_blank"> 
+									<a href="https://github.com/Jozdien/aumann" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
 									</a>
 								</div>
 								<div id="work-2-link-external" class="work-item-link-container">
-									<a href="https://arxiv.org/abs/2106.10542" target="_blank"> 
+									<a href="" target="_blank"> 
 										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
@@ -274,19 +279,19 @@
 					<div class="work-item-all">
 						<div id="work-2-background" class="work-item-background">
 							<div id="work-2-title" class="work-item-title">
-								Metise
+								Aumann's Game
 							</div>
 							<div id="work-2-description" class="work-item-description">
-								Reversible colour-density image compression using conditional adversarial networks.  Compression is performed along the dimensions of colour density, being a relatively intractable direction outside neural net reconstruction. <br><br>  Links to the preprint and code below.
+								Website implementation of the multi-player rationality calibration game based on Aumann's Agreement Theorem.  <br><br> <a href="https://www.lesswrong.com/posts/nmwog5hGidZniDDpR/aumann-agreement-game">More on that here.</a>
 							</div>
 							<div class="work-item-links">
 								<div id="work-2-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/Metise" target="_blank"> 
+									<a href="https://github.com/Jozdien/aumann" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
 									</a>
 								</div>
 								<div id="work-2-link-external" class="work-item-link-container">
-									<a href="https://arxiv.org/abs/2106.10542" target="_blank"> 
+									<a href="" target="_blank"> 
 										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
@@ -298,20 +303,15 @@
 					<div class="work-item-content-outer">
 						<div class="work-item-content">
 							<div id="work-3-title" class="work-item-title">
-								Aumann's Game
+								Isolating Updates
 							</div>
 							<div id="work-3-description" class="work-item-description">
-								Website implementation of the multi-player rationality calibration game based on Aumann's Agreement Theorem.  <br><br> <a href="https://www.lesswrong.com/posts/nmwog5hGidZniDDpR/aumann-agreement-game">More on that here.</a>
+								Experimental work on neural network interpretability relating to isolating an update signal corresponding to the high-level objective structure in a deep RL network. Picture by DALL-E 2. <br><br> On hold while I explore other approaches.
 							</div>
 							<div class="work-item-links">
 								<div id="work-3-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/aumann" target="_blank"> 
+									<a href="https://github.com/Jozdien/isolating-updates" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
-									</a>
-								</div>
-								<div id="work-3-link-external" class="work-item-link-container">
-									<a href="" target="_blank"> 
-										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
 							</div>
@@ -323,20 +323,15 @@
 					<div class="work-item-all">
 						<div id="work-3-background" class="work-item-background">
 							<div id="work-3-title" class="work-item-title">
-								Aumann's Game
+								Isolating Updates
 							</div>
 							<div id="work-3-description" class="work-item-description">
-								Website implementation of the multi-player rationality calibration game based on Aumann's Agreement Theorem.  <br><br> <a href="https://www.lesswrong.com/posts/nmwog5hGidZniDDpR/aumann-agreement-game">More on that here.</a>
+								Experimental work on neural network interpretability relating to isolating an update signal corresponding to the high-level objective structure in a deep RL network. Picture by DALL-E 2. <br><br> On hold while I explore other approaches.
 							</div>
 							<div class="work-item-links">
 								<div id="work-3-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/aumann" target="_blank"> 
+									<a href="https://github.com/Jozdien/isolating-updates" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
-									</a>
-								</div>
-								<div id="work-3-link-external" class="work-item-link-container">
-									<a href="" target="_blank"> 
-										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
 							</div>
@@ -347,20 +342,15 @@
 					<div class="work-item-content-outer">
 						<div class="work-item-content">
 							<div id="work-4-title" class="work-item-title">
-								Mentem
+								Reward side-channels
 							</div>
 							<div id="work-4-description" class="work-item-description">
-								Mentem was originally envisioned as an all in one platform for mental health support using virtual, professional, and community resources, triage using speech and facial analysis, and health clinic assistance.  It is currently being developed into an all in one platform - a hospital ERP system.
+								Explorative work into empirical analysis of internal reward representation in reinforcement learning agents to better understand the mechanics of deceptive alignment. Picture by DALL-E 2. <br><br> Work in progress.
 							</div>
 							<div class="work-item-links">
 								<div id="work-4-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/Mentem" target="_blank"> 
+									<a href="https://github.com/Jozdien/reward-side-channels" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
-									</a>
-								</div>
-								<div id="work-4-link-external" class="work-item-link-container">
-									<a href="https://github.com/rabeehrz/Invictus" target="_blank"> 
-										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
 							</div>
@@ -372,20 +362,15 @@
 					<div class="work-item-all">
 						<div id="work-4-background" class="work-item-background">
 							<div id="work-4-title" class="work-item-title">
-								Mentem
+								Reward side-channels
 							</div>
 							<div id="work-4-description" class="work-item-description">
-								Mentem was originally envisioned as an all in one platform for mental health support using virtual, professional, and community resources, triage using speech and facial analysis, and health clinic assistance.  It is currently being developed into an all in one platform - a hospital ERP system.
+								Explorative work into empirical analysis of internal reward representation in reinforcement learning agents to better understand the mechanics of deceptive alignment. Picture by DALL-E 2. <br><br> Work in progress.
 							</div>
 							<div class="work-item-links">
 								<div id="work-4-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/Mentem" target="_blank"> 
+									<a href="https://github.com/Jozdien/reward-side-channels" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
-									</a>
-								</div>
-								<div id="work-4-link-external" class="work-item-link-container">
-									<a href="https://github.com/rabeehrz/Invictus" target="_blank"> 
-										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
 							</div>
@@ -396,19 +381,19 @@
 					<div class="work-item-content-outer">
 						<div class="work-item-content">
 							<div id="work-5-title" class="work-item-title">
-								Veris
+								Metise
 							</div>
 							<div id="work-5-description" class="work-item-description">
-								An open-source educational administration framework I helped build.  This is being developed to replace outmoded methods of handling data and process in higher educational institutes, while providing the flexibility to fit specific use-cases. <br><br>  Currently in alpha testing in CET.
+								Reversible colour-density image compression using conditional adversarial networks.  Compression is performed along the dimensions of colour density, being a relatively intractable direction outside neural net reconstruction. <br><br>  Links to the preprint and code below.
 							</div>
 							<div class="work-item-links">
 								<div id="work-5-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/veris-web" target="_blank"> 
+									<a href="https://github.com/Jozdien/Metise" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
 									</a>
 								</div>
 								<div id="work-5-link-external" class="work-item-link-container">
-									<a href="https://github.com/ccfcet/karma" target="_blank"> 
+									<a href="https://arxiv.org/abs/2106.10542" target="_blank"> 
 										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
@@ -421,19 +406,19 @@
 					<div class="work-item-all">
 						<div id="work-5-background" class="work-item-background">
 							<div id="work-5-title" class="work-item-title">
-								Veris
+								Metise
 							</div>
 							<div id="work-5-description" class="work-item-description">
-								An open-source educational administration framework I helped build.  This is being developed to replace outmoded methods of handling data and process in higher educational institutes, while providing the flexibility to fit specific use-cases. <br><br>  Currently in alpha testing in CET.
+								Reversible colour-density image compression using conditional adversarial networks.  Compression is performed along the dimensions of colour density, being a relatively intractable direction outside neural net reconstruction. <br><br>  Links to the preprint and code below.
 							</div>
 							<div class="work-item-links">
 								<div id="work-5-link-github" class="work-item-link-container">
-									<a href="https://github.com/Jozdien/veris-web" target="_blank"> 
+									<a href="https://github.com/Jozdien/Metise" target="_blank"> 
 										<img class="work-github" src="Assets/Graphics/Links/github.svg"> 
 									</a>
 								</div>
-								<div id="work-5-link-external" class="work-item-link-container">
-									<a href="https://github.com/ccfcet/karma" target="_blank"> 
+								<div id="work-3-link-external" class="work-item-link-container">
+									<a href="https://arxiv.org/abs/2106.10542" target="_blank"> 
 										<img class="work-external" src="Assets/Graphics/Links/external.svg"> 
 									</a>
 								</div>
@@ -493,7 +478,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="history">
+	<div id="history" hidden>
 		<div class="container-fluid" id="history-container">
 			<div class="row" id="title-row-head">
 				<div class="title-container">
@@ -705,6 +690,64 @@
 			</div>
 		</div>
 	</div>
+	<div id="blog">
+		<div class="container-fluid" id="blog-container">
+			<div class="row" id="title-row-head">
+				<div class="title-container">
+					<div class="title-line-left-black title-line-anim"></div>
+					<div class="title-head-text-black title-head-anim">
+						Stuff I Write
+						<div class="title-head-underline-black title-underline-anim"></div>
+					</div>
+					<div class="title-line-right-black title-line-anim"></div>
+				</div>
+			</div>
+			<div class="row" id="blog-post">
+				<div class="blog-subtitle blog-anim">
+					Posts
+				</div>
+				<div class="blog-items blog-post-items">
+					<div class="blog-item-container blog-anim">
+						<a href="https://www.lesswrong.com/posts/JqnkeqaPseTgxLgEL/conditioning-generative-models-for-alignment" class="blog-item-text" target="_blank">Conditioning Generative Models for Alignment</a>
+						<div class="blog-item-details">July 2022 &#183; 30 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+					<div class="blog-item-container blog-anim">
+						<a href="https://www.lesswrong.com/posts/pbh5PCwuYYCYDYTS4/gaming-incentives" class="blog-item-text" target="_blank">Gaming Incentives</a>
+						<div class="blog-item-details">July 2021 &#183; 10 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+					<div class="blog-item-container blog-anim">
+						<a href="https://www.lesswrong.com/posts/Pd53Mip7Aa3TsdA7E/mirix-part-i-insufficient-values-1" class="blog-item-text" target="_blank">Insufficient Values</a>
+						<div class="blog-item-details">May 2021 &#183; 10 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+					<div class="blog-item-container blog-anim">
+						<a href="https://www.lesswrong.com/posts/9yunrXrP6M5zmWDcD/utopic-nightmares" class="blog-item-text" target="_blank">Utopic Nightmares</a>
+						<div class="blog-item-details">Jan 2021 &#183; 8 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+					<div class="blog-item-container blog-anim">
+						<a href="blog/the-truth-is-often-comfortable/" class="blog-item-text">The Truth is Often Comfortable</a>
+						<div class="blog-item-details">Jan 2021 &#183; 5 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+					<div class="blog-item-container blog-anim">
+						<a href="blog/the-loyolite/" class="blog-item-text">The Loyolite</a>
+						<div class="blog-item-details">Jan 2020 &#183; 5 min read</div>
+					</div>
+					<div class="blog-divider blog-anim"></div>
+				</div>
+			</div>
+			<div class="row" id="blog-story">
+				<div class="blog-subtitle blog-anim">
+					Fiction
+				</div>
+				<div class="blog-items blog-fiction-items">
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="art">
 		<div class="container-fluid" id="art-container">
 			<div class="row" id="title-row-head">
@@ -753,54 +796,6 @@
 				</div>
 				<div class="col-lg-2 col-md-3 col-sm-4 col-6 art-item-container art-anim">
 					<div onclick="window.open('https://imgur.com/icDBdMP.jpg','mywindow');" class="art-item-image art-12"></div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="blog">
-		<div class="container-fluid" id="blog-container">
-			<div class="row" id="title-row-head">
-				<div class="title-container">
-					<div class="title-line-left-black title-line-anim"></div>
-					<div class="title-head-text-black title-head-anim">
-						Stuff I Write
-						<div class="title-head-underline-black title-underline-anim"></div>
-					</div>
-					<div class="title-line-right-black title-line-anim"></div>
-				</div>
-			</div>
-			<div class="row" id="blog-post">
-				<div class="blog-subtitle blog-anim">
-					Posts
-				</div>
-				<div class="blog-items blog-post-items">
-					<div class="blog-item-container blog-anim">
-						<a href="https://www.lesswrong.com/posts/Pd53Mip7Aa3TsdA7E/mirix-part-i-insufficient-values-1" class="blog-item-text" target="_blank">Insufficient Values</a>
-						<div class="blog-item-details">May 2021 &#183; 10 min read</div>
-					</div>
-					<div class="blog-divider blog-anim"></div>
-					<div class="blog-item-container blog-anim">
-						<a href="https://www.lesswrong.com/posts/9yunrXrP6M5zmWDcD/utopic-nightmares" class="blog-item-text" target="_blank">Utopic Nightmares</a>
-						<div class="blog-item-details">Jan 2021 &#183; 8 min read</div>
-					</div>
-					<div class="blog-divider blog-anim"></div>
-					<div class="blog-item-container blog-anim">
-						<a href="blog/the-truth-is-often-comfortable/" class="blog-item-text">The Truth is Often Comfortable</a>
-						<div class="blog-item-details">Jan 2021 &#183; 5 min read</div>
-					</div>
-					<div class="blog-divider blog-anim"></div>
-					<div class="blog-item-container blog-anim">
-						<a href="blog/the-loyolite/" class="blog-item-text">The Loyolite</a>
-						<div class="blog-item-details">Jan 2020 &#183; 5 min read</div>
-					</div>
-					<div class="blog-divider blog-anim"></div>
-				</div>
-			</div>
-			<div class="row" id="blog-story">
-				<div class="blog-subtitle blog-anim">
-					Fiction
-				</div>
-				<div class="blog-items blog-fiction-items">
 				</div>
 			</div>
 		</div>

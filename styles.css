@@ -585,28 +585,28 @@ a:link {
 }
 
 .work-2-image {
-	background: url('Assets/Graphics/Work/metise.png'); 
-	background-position: center; 
-	background-repeat: no-repeat; 
-	background-size: cover;
-}
-
-.work-3-image {
 	background: url('Assets/Graphics/Work/aumann.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
+.work-3-image {
+	background: url('Assets/Graphics/Work/isolating-updates.png'); 
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+
 .work-4-image {
-	background: url('Assets/Graphics/Work/mentem.png'); 
+	background: url('Assets/Graphics/Work/reward-side-channels.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
 
 .work-5-image {
-	background: url('Assets/Graphics/Work/veris.png'); 
+	background: url('Assets/Graphics/Work/metise.png'); 
 	background-position: center; 
 	background-repeat: no-repeat; 
 	background-size: cover;
@@ -627,28 +627,28 @@ a:link {
 }
 
 #work-2-background {
-	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/metise.png");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-#work-3-background {
 	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/aumann.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
+#work-3-background {
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/isolating-updates.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #work-4-background {
-	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/mentem.png");
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/reward-side-channels.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 #work-5-background {
-	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/veris.png");
+	background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("Assets/Graphics/Work/metise.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
